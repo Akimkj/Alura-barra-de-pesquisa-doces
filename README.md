@@ -1,4 +1,4 @@
-# Imersão Dev da Alura com o Google Gemini
+# Desvendando receitas - Imersão Dev da Alura com o Google Gemini
  Uma barra de pesquisa de receitas de doces desenvolvida na imersão Dev da Alura com o Google Gemini.
 ###  **Sobre essa aplicação**
 
