@@ -4,7 +4,7 @@ let dados = [
         titulo : "Manjar de coco",
         descricao : "O manjar de coco é uma sobremesa tradicional brasileira que encanta paladares há gerações. Sua textura cremosa e sabor suave, com o toque característico do coco, o tornam um doce perfeito para finalizar qualquer refeição. Preparado com ingredientes simples como leite de coco, leite, açúcar e amido de milho, o manjar é versátil e pode ser encontrado em diversas versões, com adição de outros ingredientes como coco ralado, calda de ameixa ou frutas frescas. Sua origem remonta à culinária conventual, e ao longo dos anos, o manjar de coco conquistou um lugar especial no coração dos brasileiros, sendo apreciado por sua simplicidade e sabor inconfundível.",
         linkVideoYT : "https://youtu.be/NR3C48-7aZ8?si=SfPUid2EdbZU8dBo",
-        linkReceita : "https://youtu.be/ytMi-OCjFX8?si=SvZNtsDYfM1u2KpI",
+        linkReceita : "https://www.tudogostoso.com.br/receita/364-manjar-de-coco.html",
     },
     {
         titulo : "Mousse de Maracujá",
@@ -63,8 +63,8 @@ let dados = [
     {
         titulo: "Torta de limão",
         descricao: "A torta de limão é uma sobremesa cítrica e refrescante, com base de biscoito e recheio cremoso de limão.",
-        linkVideoYT: "https://youtu.be/seuLinkVideoTortaLimão",
-        linkReceita: "https://youtu.be:seuLinkReceitaTortaLimão",
+        linkVideoYT: "https://youtu.be/X3dtT2bGrys?si=nGFjnIvKvhJgR_xE",
+        linkReceita: "https://www.urbano.com.br/torta-de-limao",
     },
     {
         titulo: "Cheesecake",
@@ -123,7 +123,7 @@ let dados = [
       {
         titulo: "Pavlova Vegana com Frutas Vermelhas",
         descricao: "Leve e sofisticada, a pavlova vegana é perfeita para ocasiões especiais. A base crocante e o merengue vegano combinam perfeitamente com as frutas vermelhas frescas.",
-        linkVideoYT: "https://youtu.be/BR9I7dq86lM?si=9fsNcBOHvGlXlXrq",
+        linkVideoYT: "https://youtu.be/GCvzzJiljS4?si=jAQ5kifzH4CTRLs5",
         linkReceita: "https://www.gorenje.com.br/life-simplified/alimentacao/receitas/mini-pavlova-vegano",
       },
       {
