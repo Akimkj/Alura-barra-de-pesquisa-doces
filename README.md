@@ -1,6 +1,6 @@
-# Desvendando receitas - Imersão Dev da Alura com o Google Gemini
+# 🍰Desvendando receitas - Imersão Dev com o Google Gemini
  Uma barra de pesquisa de receitas de doces desenvolvida na imersão Dev da Alura com o Google Gemini.
-###  **Sobre essa aplicação**
+###  💬 **Sobre essa aplicação**
 
 **Já imaginou ter um chef particular no seu bolso?**  Essa aplicação te ajuda a encontrar a receita perfeita para qualquer ocasião, desde um grande Pudim até um doce rápido para matar aquela vontade. 
 
@@ -9,7 +9,7 @@
 * **Resultados deliciosos:** Uma lista com as receitas mais relevantes, com links para o vídeo tutorial e a receita completa.
 * **Diversidade:** Uma variedade de doces para todos os gostos, incluindo opções veganas e sem glúten.
 
-### ️ **Tecnologias utilizadas**
+### ️ 👩‍💻 **Tecnologias utilizadas**
 
 * **HTML:** A base da nossa página, responsável pela estrutura e conteúdo.
 * **CSS:** Deixa tudo bonitinho e organizado, com um layout responsivo para você acessar do celular ou computador.
@@ -17,16 +17,21 @@
 * **Google Fonts:** As fontes mais gostosas para deixar sua experiência ainda mais agradável.
 * **Material Icons:** Os ícones que dão um toque especial na interface.
 
-###  **Como usar**
+###  ⚙️ **Como usar**
 
+#### **1ª forma:**
 1. **Clone o repositório:** 
    ```bash
-   git clone https://seu-repositorio.git
+   git clone https://github.com/Akimkj/Alura-barra-de-pesquisa-doces.git
    ```
 2. **Abra o arquivo index.html:** Use seu navegador favorito para visualizar a aplicação.
 3. **Divirta-se:** Comece a explorar o mundo das receitas!
 
-###  **Contribuindo**
+#### **2ª forma:**
+1. **Acesse o link a seguir:**
+   [Clique aqui para acessar a barra de pesquisa](https://alura-barra-de-pesquisa-doces.vercel.app/)
+
+### 🤝 **Contribuindo**
 
 Quer ajudar a deixar essa aplicação ainda mais doce?  Sinta-se à vontade para abrir um pull request com suas sugestões e melhorias.
 
@@ -39,5 +44,3 @@ Quer ajudar a deixar essa aplicação ainda mais doce?  Sinta-se à vontade para
 **Vamos juntos criar um paraíso para os amantes de doces!** 
 
 **Gostou?** Que tal dar uma estrelinha para esse repositório? ⭐ 
-
-**Observação:** Substitua "https://seu-repositorio.git" pelo link do seu repositório no GitHub.
