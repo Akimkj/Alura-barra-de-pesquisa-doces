@@ -3,6 +3,12 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/*Importa as fontes Ultra, Abril Fatface e Alfa Slab One do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Ultra&display=swap');
+
+/*Importa a fonte Asap do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --cor1: #d8cfb0;
     --cor2: #f1a9a4;
@@ -11,10 +17,9 @@
 
 /* Estiliza o corpo da página */
 body, html {
-    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    font-family: "Asap","Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: var(--cor1);
     display: flex; /* Usa Flexbox para layout */
-    
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
@@ -29,6 +34,11 @@ h1 {
     color: var(--cor3); /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    font-family: 'Abril Fatface', "Chakra Petch", sans-serif;
+}
+
+header > h1 > span {
+    font-size: 2em;
 }
 
 /* Estiliza as seções da página */
@@ -62,7 +72,7 @@ section button {
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
-section button > span {
+section button > div > span {
     transform: translateY(6px);
 }
 
@@ -100,10 +110,22 @@ section button:hover {
     width: 70vw;
 }
 
+.item-resultado h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 > a {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: var(--cor2); /* Cor do texto */
+    font-weight: bold;
+    font-style: italic;
+}
+
+.item-resultado p, #welcome p {
+    hyphens: auto;
+    line-height: 1.5em;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -147,6 +169,11 @@ footer > p {
     body {
         justify-content: flex-end;
     }
+
+    header {
+        margin-bottom: 1em;
+    }
+
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
@@ -155,6 +182,10 @@ footer > p {
     section input {
         width: 25rem; /* Largura dos inputs em telas menores */
         padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    section button > div {
+        transform: translateY(-5px);
     }
 
     .resultados-pesquisa {
