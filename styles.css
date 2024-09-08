@@ -156,8 +156,7 @@ footer {
     width: 100vw; /* Largura total da página */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
-    display: block;
-    height: 100%;
+    align-self: flex-end;
 }
 
 footer > p {
